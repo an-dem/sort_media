@@ -1,0 +1,9 @@
+[package]
+name = "sort_media"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rexif = "0.7.5"
+chrono = "0.4"     # für Datum/Zeit-Handling
+walkdir = "2.3"    # für rekursives Verzeichnis-Scannen
