@@ -1,0 +1,17 @@
+{
+  // Use LF endings to avoid CRLF warnings in Git
+  "files.eol": "\n",
+
+  // Force UTF-8 encoding for source files
+  "files.encoding": "utf8",
+
+  // Automatically fetch from GitHub
+  "git.autofetch": true,
+
+  // Stage all changes at commit (optional)
+  "git.enableSmartCommit": true,
+
+  // Rust analyzer settings
+  "rust-analyzer.cargo.autoreload": true,
+  "rust-analyzer.checkOnSave.command": "clippy"
+}
