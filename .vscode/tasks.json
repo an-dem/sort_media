@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Cargo Build",
+            "type": "shell",
+            "command": "cargo build",
+            "group": "build",
+            "problemMatcher": ["$rustc"]
+        },
+        {
+            "label": "Cargo Run",
+            "type": "shell",
+            "command": "cargo run",
+            "group": "build",
+            "problemMatcher": ["$rustc"]
+        }
+    ]
+}
